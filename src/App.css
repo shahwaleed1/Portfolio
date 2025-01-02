@@ -26,13 +26,14 @@ header {
 .email,
 .whatsapp {
   display: flex;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
   color: var(--primary);
 }
 
 header a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
   color: var(--primary);
   margin: 0 5px;
 }
@@ -89,14 +90,18 @@ header a {
 
 .heading {
   color: #02395d;
-  font-size: 25px;
+  /* font-size: 25px; */
+  /* font-size: 3.5vmin; */
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   text-shadow: 0 2px 15px #031724;
   text-align: center;
   /* animation: text 5s linear infinite; */
 }
 .heading small {
   color: #e7e5e5d8;
-  font-size: 18px;
+  /* font-size: 18px; */
+  /* font-size: 2.4vmin; */
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
   text-shadow: 0 2px 3px #000f13;
 }
 
@@ -196,6 +201,7 @@ header a {
   color: #40d3f0;
 }
 .about_img {
+  flex: 1 1 800px;
   max-width: 300px;
 }
 
@@ -226,6 +232,7 @@ header a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .about_text {
   max-width: 700px;
@@ -432,20 +439,24 @@ header a {
 /* -----Contant Page------ */
 
 .contact-container {
-  min-height: 600px;
+  /* min-height: 600px;
   height: 100vh;
-  max-height: 900px;
+  max-height: 900px; */
   background-color: #ffcc00;
   background: linear-gradient(to right, #ffd746, #f0c001);
+  padding-bottom: 3rem;
 }
 .data {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-x: hidden;
   padding-top: 2rem;
 }
 .contact-img {
   max-width: 500px;
+  flex: 1 1 400px;
   /* position: relative; */
   /* top: 190px; */
   /* left: 100px; */
@@ -457,8 +468,9 @@ header a {
 }
 .contact-mail {
   /* float: right; */
-  width: 400px;
-  padding: 50px 30px;
+  width: clamp(17rem, 45vw, 25rem);
+  /* padding: 50px 30px; */
+  padding: clamp(1.5rem, 2vw, 2rem);
   border-radius: 12px;
   /* transform: translate(-110px, -310px); */
   background-color: rgba(255, 255, 255, 0.1);
