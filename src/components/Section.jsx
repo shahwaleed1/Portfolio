@@ -10,7 +10,7 @@ const Section = () => (
           <div className="img-back"></div>
         </div>
         <div className="heading">
-          <h1>Waleed Shah</h1>
+          <h1 className="name">Waleed Shah</h1>
           <p><strong>Frontend Developer</strong></p>
           <small>
             My name is Waleed Shah, I Frontend Developer from Pakistan <br /> Freelancer, Company Job <br />Web

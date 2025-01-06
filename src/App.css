@@ -18,6 +18,18 @@ header {
   backdrop-filter: blur(4px);
   background-color: rgba(35, 35, 35, 0.5);
 }
+header button {
+  background-color: transparent;
+  border: none;
+  color: var(--primary);
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  margin-right: 2.5rem;
+  margin-top: 1px;
+  cursor: pointer;
+  color: #098de4;
+  /* color: #aeff00; */
+  /* color: #ffcc00; */
+}
 /* header .icon {
   margin: 1px 1px;
   font-size: 20px;
@@ -96,6 +108,8 @@ header a {
   text-shadow: 0 2px 15px #031724;
   text-align: center;
   /* animation: text 5s linear infinite; */
+}
+.name {
 }
 .heading small {
   color: #e7e5e5d8;
@@ -243,8 +257,17 @@ header a {
 
 /* -----Projects-----*/
 .project-container {
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow: scroll; */
+}
+.project_heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+.project_para {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
 }
 .github-img {
   max-width: 70px;
@@ -271,6 +294,7 @@ header a {
   margin: 0 10px;
   /* overflow: auto; */
   box-sizing: border-box;
+  cursor: pointer;
 }
 .card-i_t {
   margin: 0 auto;
@@ -293,14 +317,23 @@ header a {
   margin: 8px 0;
 }
 .card a {
-  display: inline;
-  float: right;
-  margin: 2px;
-  padding: 12px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  float: left;
+  margin: 5px 2px;
+  padding: 12px 0;
+  width: 48%;
   color: white;
   text-decoration: none;
   background: linear-gradient(90deg, rgb(13, 59, 105), rgb(1, 50, 79));
-  border-radius: 3px;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  transition: all 1s ease-in;
+}
+.card a:hover {
+  background: linear-gradient(90deg, rgb(39, 114, 188) 20%, rgb(2, 71, 108));
 }
 
 .card:hover .card-text {
