@@ -1,6 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const Section = () => (
+
+const Section = () => {
+
+  // const words = ['WEB DEVELOPER', 'WEB DESIGNER', 'UI/UX DESIGNER'];
+  // const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  // const [displayedText, setDisplayedText] = useState('');
+  // const [isDeleting, setIsDeleting] = useState(false);
+
+  // useEffect(() => {
+  //   const handleTyping = () => {
+  //     const currentWord = words[currentWordIndex];
+  //     if (isDeleting) {
+  //       setDisplayedText((prev) => prev.slice(0, -1));
+  //     } else {
+  //       setDisplayedText((prev) => currentWord.slice(0, prev.length + 1));
+  //     }
+
+  //     if (!isDeleting && displayedText === currentWord) {
+  //       setTimeout(() => setIsDeleting(true), 1000);
+  //     } else if (isDeleting && displayedText === '') {
+  //       setIsDeleting(false);
+  //       setCurrentWordIndex((prev) => (prev + 1) % words.length);
+  //     }
+  //   };
+
+  //   const typingInterval = setInterval(handleTyping, 150);
+  //   return () => clearInterval(typingInterval);
+  // }, [displayedText, isDeleting, currentWordIndex]);
+
+
+  return(
   <section>
     <div className="sec-container">
       <video className="bg-video" autoPlay muted loop src="5200-183786525_medium.mp4"></video>
@@ -12,6 +42,7 @@ const Section = () => (
         <div className="heading">
           <h1 className="name">Waleed Shah</h1>
           <p><strong>Frontend Developer</strong></p>
+          {/* <p>{displayedText}</p> */}
           <small>
             My name is Waleed Shah, I Frontend Developer from Pakistan <br /> Freelancer, Company Job <br />Web
             Languages
@@ -39,6 +70,7 @@ const Section = () => (
       </div>
     </div>
   </section>
-);
+  )
+};
 
 export default Section;
