@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaTwitter />
             </a>
-            <a href="mailto:its.waleed33@gmail.com" className="social-icon">
+            <a href="mailto:waleeddev4@gmail.com" className="social-icon">
               <FaEnvelope />
             </a>
           </div>

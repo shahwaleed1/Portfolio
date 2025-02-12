@@ -32,7 +32,7 @@ const Header = () => {
         <span className="icon">
           <CgMail />
         </span>
-        <a href="mailto:its.waleed33@gmail.com">its.waleed33@gmail.com</a>
+        <a href="mailto:waleeddev4@gmail.com">waleeddev4@gmail.com</a>
       </div>
       <div className="whatsapp">
       <button onClick={toggleAudio}>

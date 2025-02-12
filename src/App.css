@@ -546,3 +546,8 @@ textarea {
   background-color: #fabf1b;
   box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.468);
 }
+
+#submit:hover{
+  cursor: pointer;
+  box-shadow: 0px 4px 1px rgba(55, 54, 54, 0.468);
+}
