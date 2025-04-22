@@ -12,6 +12,7 @@ const Projects = () => (
       <Card img={"coffee.png"} name={"Shah Coffee"} despc={"Shah Coffee"} domain={"https://shahcoffee.vercel.app/"} />
       <Card img={"Ai.png"} name={"Virtual Assistant"} despc={"This Shahni virtual assistant dynamically give response of any Question."} domain={"https://waleed-assistan.vercel.app/"} />
       <Card img={"weather_js.png"} name={"Waether App"} despc={"Weather app with searchbox."} domain={"https://shahwaleed1.github.io/WeatherApp_js/"} />
+      <Card img={"Food_Nutrient.png"} name={"Food Nutrient"} despc={"The Food-Nutrient WebApp is a modern and responsive web application."} domain={"https://food-nutrient.vercel.app/"} />
     </div>
   </div>
 );
