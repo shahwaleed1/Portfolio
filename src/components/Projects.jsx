@@ -13,6 +13,7 @@ const Projects = () => (
       <Card img={"Ai.png"} name={"Virtual Assistant"} despc={"This Shahni virtual assistant dynamically give response of any Question."} domain={"https://waleed-assistan.vercel.app/"} />
       <Card img={"weather_js.png"} name={"Waether App"} despc={"Weather app with searchbox."} domain={"https://shahwaleed1.github.io/WeatherApp_js/"} />
       <Card img={"Food_Nutrient.png"} name={"Food Nutrient"} despc={"The Food-Nutrient WebApp is a modern and responsive web application."} domain={"https://food-nutrient.vercel.app/"} />
+      <Card img={"gta6.png"} name={"GTA 6"} despc={"GTA 6 website using React js and Tailwind css."} domain={"https://gta-6-delta.vercel.app/"} />
     </div>
   </div>
 );
