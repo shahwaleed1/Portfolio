@@ -4,7 +4,7 @@ const About = () => (
   <div className="about-container" id="about">
     <div className="img-text">
       <div className="about_img">
-        <img src="about-pic.png" alt="" />
+        <img src="https://res.cloudinary.com/dakyaitql/image/upload/v1748493931/about-pic_yh5q2r.png" alt="Admin About Picture" />
       </div>
       <div className="about_text">
         Hello! I'm Waleed Shah, a passionate and driven Full Stack Developer with a strong focus on developing scalable,

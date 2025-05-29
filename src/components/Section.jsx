@@ -62,13 +62,14 @@ const Section = () => {
           autoPlay
           muted
           loop
-          src="5200-183786525_medium.mp4"
+          // src="5200-183786525_medium.mp4"
+          src="https://res.cloudinary.com/dakyaitql/video/upload/v1748493946/5200-183786525_medium_jzztwv.mp4"
         ></video>
         <div className="container">
           <div className="img-bg-div">
             <img
-              src="profile_pic.png"
-              alt="Admin logo"
+              src="https://res.cloudinary.com/dakyaitql/image/upload/v1748493785/profile_pic_irrwll.png"
+              alt="My Picture"
               className="admin-logo"
             />
             <div className="img-back"></div>
