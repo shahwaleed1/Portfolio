@@ -364,9 +364,10 @@ header a {
 /* Skill Paga */
 
 .skill-container {
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: #aeff00; */
   background-color: #171717;
+  padding-bottom: 2.5rem;
 }
 .skill-container h1 {
   color: white;
@@ -551,4 +552,56 @@ textarea {
 #submit:hover{
   cursor: pointer;
   box-shadow: 0px 4px 1px rgba(55, 54, 54, 0.468);
+}
+
+/* Skill section  */
+
+.progres_main_div {
+  color: white;
+  margin-top: 5rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tech-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  min-width: 8rem;
+}
+
+.progress-bar-wrapper {
+  flex: 1;
+  background-color: #4e4939;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress{
+  /* background-color: greenyellow; */
+  background: linear-gradient(90deg, #ffd323 , #ffefad);
+  height: 1.5rem;
+  border-radius: 8px 0 0 8px;
+  position: relative;
+  transition: width 1s ease;
+}
+
+.progress::after {
+  content: attr(data-value);
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
