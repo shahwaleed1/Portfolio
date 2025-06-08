@@ -18,7 +18,7 @@ const techskill = [
   },
   {
     id: 4,
-    name: 'javascript',
+    name: 'Javascript',
     value: 70
   },
   {
