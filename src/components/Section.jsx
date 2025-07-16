@@ -77,12 +77,11 @@ const Section = () => {
           <div className="heading">
             <h1 className="name">Waleed Shah</h1>
             <p>
-              <strong>Frontend Developer</strong>
+              <strong>Full-Stack Developer</strong>
             </p>
             <small>
-              My name is Waleed Shah, I Frontend Developer from Pakistan <br />
-              Freelancer, Company Job <br />
-              Web Languages
+              I am MERN Stack Developer with expertise in crafting dynamic,<br />
+              user-friendly with responsive web-apps
             </small>
           </div>
           <div className="marquee-container">

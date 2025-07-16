@@ -85,7 +85,7 @@ header a {
   height: 210px;
   border-radius: 50%;
   position: absolute;
-  top: 26%;
+  top: 28%;
   left: 50%;
   translate: -50% -50%;
   animation: circle 3s ease-out infinite;
@@ -102,7 +102,8 @@ header a {
 }
 
 .heading {
-  color: #02395d;
+  /* color: #02395d; */
+  color: white;
   /* font-size: 25px; */
   /* font-size: 3.5vmin; */
   font-size: clamp(1rem, 2.5vw, 1.5rem);
