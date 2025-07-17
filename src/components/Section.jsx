@@ -77,7 +77,7 @@ const Section = () => {
           <div className="heading">
             <h1 className="name">Waleed Shah</h1>
             <p>
-              <strong>Full-Stack Developer</strong>
+              <strong style={{ fontWeight: '500' }}>Full-Stack Developer</strong>
             </p>
             <small>
               I am MERN Stack Developer with expertise in crafting dynamic,<br />
