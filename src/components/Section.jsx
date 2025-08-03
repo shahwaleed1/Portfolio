@@ -75,7 +75,7 @@ const Section = () => {
             <div className="img-back"></div>
           </div>
           <div className="heading">
-            <h1 className="name">Waleed Shah</h1>
+            <h1 className="name focus-in-contract-bck">Waleed Shah</h1>
             <p>
               <strong style={{ fontWeight: '500' }}>Full-Stack Developer</strong>
             </p>
