@@ -70,7 +70,7 @@ const Section = () => {
             <img
               src="https://res.cloudinary.com/dakyaitql/image/upload/v1748493785/profile_pic_irrwll.png"
               alt="My Picture"
-              className="admin-logo"
+              className="admin-logo puff-in-center"
             />
             <div className="img-back"></div>
           </div>

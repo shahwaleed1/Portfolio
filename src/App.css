@@ -619,3 +619,28 @@ textarea {
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+
+.puff-in-center {
+  animation: puff-in-center 0.7s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+}
+
+
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2.5);
+    filter: blur(4px);
+    opacity: 0;
+  }
+
+  50% {
+    filter: blur(7px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
