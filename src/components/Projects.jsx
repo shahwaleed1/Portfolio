@@ -14,6 +14,7 @@ const Projects = () => (
       <Card img={"weather_js.png"} name={"Waether App"} despc={"Weather app with searchbox."} domain={"https://shahwaleed1.github.io/WeatherApp_js/"} />
       <Card img={"Food_Nutrient.png"} name={"Food Nutrient"} despc={"The Food-Nutrient WebApp is a modern and responsive web application."} domain={"https://food-nutrient.vercel.app/"} />
       <Card img={"gta6.png"} name={"GTA 6"} despc={"GTA 6 website using React js and Tailwind css."} domain={"https://gta-6-delta.vercel.app/"} />
+      <Card img={"blog_project-min.png"} name={"Blog"} despc={"Beauty of Pakistan is a stylish and intuitive blogger website designed to immerse visitors in the rich landscapes and culture of Pakistan. It includes essential pages like Home and About, along with Login and Signup functionality for user interaction."} domain={"https:https://blogapp-z729.vercel.app/"} />
     </div>
   </div>
 );
