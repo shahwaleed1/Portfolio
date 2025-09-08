@@ -747,3 +747,49 @@ textarea {
     opacity: 1;
   }
 }
+
+/* Tech colors */
+.tech-react {
+  color: #61DBFB;
+}
+
+/* React blue */
+.tech-node {
+  color: #3C873A;
+}
+
+/* Node green */
+.tech-mongodb {
+  color: #4DB33D;
+}
+
+/* MongoDB green */
+.tech-express {
+  color: #555;
+}
+
+/* Express gray */
+.tech-tailwind {
+  color: #38BDF8;
+}
+
+/* Tailwind cyan */
+.tech-nextjs {
+  color: #000;
+}
+
+/* Next.js black */
+
+.tech-stack {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
