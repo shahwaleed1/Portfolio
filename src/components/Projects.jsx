@@ -26,7 +26,7 @@ const projects = [
       "This Shahni virtual assistant dynamically give response of any Question.",
     live: "https://waleed-assistan.vercel.app/",
     image: "./Ai.png",
-    tech: ["React", "Node", "Express", "Mongodb"],
+    tech: ["React", "Tailwind"],
   },
   {
     name: "Weather App",
@@ -41,7 +41,7 @@ const projects = [
       "The Food-Nutrient WebApp is a modern and responsive web application.",
     live: "https://food-nutrient.vercel.app/",
     image: "./Food_Nutrient.png",
-    tech: ["Nextjs", "Tailwind"],
+    tech: ["React", "Tailwind"],
   },
   {
     name: "GTA 6",

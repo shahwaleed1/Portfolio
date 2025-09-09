@@ -786,7 +786,7 @@ textarea {
 
 .tech-stack {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   margin-top: 10px;
   flex-wrap: wrap;
 }
