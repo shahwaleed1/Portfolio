@@ -747,3 +747,56 @@ textarea {
     opacity: 1;
   }
 }
+/* Tech colors */
+.tech-react {
+  color: #61DBFB;
+  border: 2px solid #61DBFB;
+  background: rgba(97, 219, 251, 0.1);
+}
+
+.tech-node {
+  color: #3C873A;
+  border: 2px solid #3C873A;
+  background: rgba(60, 135, 58, 0.1);
+}
+
+.tech-mongodb {
+  color: #4DB33D;
+  border: 2px solid #4DB33D;
+  background: rgba(77, 179, 61, 0.1);
+}
+
+.tech-express {
+  color: #555;
+  border: 2px solid #555;
+  background: rgba(85, 85, 85, 0.1);
+}
+
+.tech-tailwind {
+  color: #38BDF8;
+  border: 2px solid #38BDF8;
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.tech-nextjs {
+  color: #000000cf;
+  border: 2px solid #000000c7;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.tech-stack {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  padding: 3px 10px 4px 10px;
+  border-radius: 25px;
+  font-weight: 500;
+}
