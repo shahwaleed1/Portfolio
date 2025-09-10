@@ -1,7 +1,8 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGithub, FaUsers } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
 import { RiNextjsFill, RiLink } from "react-icons/ri";
+import { MdManageAccounts } from "react-icons/md";
 
 // Project data
 const projects = [
@@ -57,10 +58,11 @@ const projects = [
     live: "https://blogapp-z729.vercel.app/",
     image: "./blog_project-min.png",
     tech: ["Nextjs", "Tailwind"],
+    sides: ["Admin", "client"],
   },
 ];
 
-// Tech icons + colors (custom CSS classes instead of Tailwind)
+// Tech icons + colors
 const tech = {
   React: { icon: <FaReact />, name: "React", color: "tech-react" },
   Node: { icon: <FaNodeJs />, name: "Node.js", color: "tech-node" },
@@ -68,6 +70,12 @@ const tech = {
   Express: { icon: <SiExpress />, name: "Express", color: "tech-express" },
   Tailwind: { icon: <SiTailwindcss />, name: "Tailwind", color: "tech-tailwind" },
   Nextjs: { icon: <RiNextjsFill />, name: "Next.js", color: "tech-nextjs" },
+};
+
+// Admin / Client icons + colors
+const sidesIcons = {
+  Admin: { icon: <MdManageAccounts />, name: "Admin Panel", color: "#00BCFF" },
+  client: { icon: <FaUsers />, name: "Client Side", color: "#05DF72" },
 };
 
 const Projects = () => (
@@ -81,7 +89,24 @@ const Projects = () => (
           <div className="card-i_t">
             <img src={project.image} alt="Project" />
             <div className="card-text">
-              <h3>{project.name}</h3>
+              {/* Project title + sides */}
+              <h3>
+                {project.name}
+                {project.sides?.map((side, idx) => (
+                  <span
+                    key={idx}
+                    style={{
+                      marginLeft: "10px",
+                      color: sidesIcons[side].color,
+                      fontSize: "0.9rem",
+                    }}
+                  >
+                    {sidesIcons[side].icon} {sidesIcons[side].name}
+                  </span>
+                ))}
+              </h3>
+
+              {/* Description */}
               <p>{project.description}</p>
 
               {/* Tech stack */}
