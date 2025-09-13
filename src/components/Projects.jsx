@@ -13,6 +13,7 @@ const projects = [
     live: "https://hd-photos.vercel.app/",
     image: "./hd_photo.png",
     tech: ["React", "Tailwind"],
+    sides: ["client"],
   },
   {
     name: "Shah Coffee",
@@ -20,6 +21,7 @@ const projects = [
     live: "https://shahcoffee.vercel.app/",
     image: "./coffee.png",
     tech: ["React", "Tailwind"],
+    sides: ["Admin", "client"],
   },
   {
     name: "Virtual Assistant",
@@ -28,6 +30,7 @@ const projects = [
     live: "https://waleed-assistan.vercel.app/",
     image: "./Ai.png",
     tech: ["React", "Tailwind"],
+    sides: ["client"],
   },
   {
     name: "Weather App",
@@ -35,6 +38,7 @@ const projects = [
     live: "https://shahwaleed1.github.io/WeatherApp_js/",
     image: "./weather_js.png",
     tech: ["React", "Tailwind"],
+    sides: ["client"],
   },
   {
     name: "Food Nutrient",
@@ -43,6 +47,7 @@ const projects = [
     live: "https://food-nutrient.vercel.app/",
     image: "./Food_Nutrient.png",
     tech: ["React", "Tailwind"],
+    sides: ["client"],
   },
   {
     name: "GTA 6",
@@ -50,6 +55,7 @@ const projects = [
     live: "https://gta-6-delta.vercel.app/",
     image: "./gta6.png",
     tech: ["React", "Tailwind"],
+    sides: ["client"],
   },
   {
     name: "Blog",
