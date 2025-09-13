@@ -66,6 +66,15 @@ const projects = [
     tech: ["Nextjs", "Tailwind"],
     sides: ["Admin", "client"],
   },
+  {
+    name: "CatApk",
+    description:
+      "A custom-built Cat Modded website featuring a modern UI and seamless backend integration. It showcases app listings with images, descriptions, and download options, designed for smooth browsing and optimized performance",
+    live: "https://cat-apk.vercel.app/",
+    image: "./cat-modded.png",
+    tech: ["React", "Node", "Express", "Mongodb", "Tailwind"],
+    sides: ["Admin", "client"],
+  },
 ];
 
 // Tech icons + colors
